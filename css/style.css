@@ -23,6 +23,24 @@ body{
     color: #fff;
     font-size: 2.5rem;
     font-weight: 700;
-    width: 50%;
     padding: 1rem;
+    width: 45%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.about--img {
+    background-image: url('../images/canoe.jpeg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50%;
+    height: 100%;
+    float: right;
 }
